@@ -1,0 +1,29 @@
+.services {
+    background-color: var(--dark-bg-3);
+}
+.services .label {
+    color: var(--text-color-2);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: .6;
+}
+.services .section-title {
+    color: var(--white);
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.service_tables > table:nth-child(1) {
+    background: #171a24;
+    background: -webkit-linear-gradient(to bottom, #171a24, rgba(23, 26, 36, 0.2));
+    background: linear-gradient((to bottom, #171a24, rgba(23, 26, 36, 0.2)));
+    color: var(--text-color-2);
+}
+.service_tables > table:nth-child(2){
+    background: #090b13;
+    background: -webkit-linear-gradient(to bottom, #090b13, rgba(9, 11, 19, 0.2));
+    background: linear-gradient((to bottom, #090b13, rgba(9, 11, 19, 0.2)));
+    color: var(--text-color-2);
+}
